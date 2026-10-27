@@ -4,6 +4,8 @@ An event discovery and ticketing web app: browse what's on, buy tickets, and run
 
 All data lives in the browser (localStorage), so it runs with no backend. No real payments are taken.
 
+![Home page](docs/screenshots/1-home.png)
+
 ## Features
 
 **Attendees**
@@ -21,6 +23,12 @@ All data lives in the browser (localStorage), so it runs with no backend. No rea
 - Draft / publish / unpublish / cancel / duplicate / delete
 - Event dashboard: sales stats, ticket-type capacity, orders (refunds, CSV export), attendee check-in (search, CSV export)
 - Editable organizer profile
+
+## Screenshots
+
+| Event page | Checkout | Tickets |
+|---|---|---|
+| ![](docs/screenshots/2-event.png) | ![](docs/screenshots/3-checkout.png) | ![](docs/screenshots/4-tickets.png) |
 
 ## Run it
 
