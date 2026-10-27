@@ -1,4 +1,4 @@
-# Turnout
+# Ravers
 
 An event discovery and ticketing web app: browse what's on, buy tickets, and run your own events.
 
@@ -38,6 +38,6 @@ npm run dev       # http://localhost:5173
 npm run build     # production build in dist/
 ```
 
-Demo login: `demo@turnout.test` / `demo1234`. Promo code `FRIENDS10` works on events that have one (e.g. "Weird Nightmare + Pale Lungs").
+Demo login: `demo@ravers.test` / `demo1234`. Promo code `FRIENDS10` works on events that have one (e.g. "Weird Nightmare + Pale Lungs").
 
 When deploying, route all paths to `index.html` (the app uses client-side routing). `public/_redirects` handles this on Netlify and `vercel.json` on Vercel.

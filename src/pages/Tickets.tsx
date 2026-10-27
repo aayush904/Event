@@ -125,7 +125,7 @@ export function TicketDetail() {
                 )}
               </div>
               <div className="stub-qr">
-                <QR value={`TURNOUT:${order.id}:${a.id}`} />
+                <QR value={`RAVERS:${order.id}:${a.id}`} />
                 <span className="mono">{a.id.toUpperCase()}</span>
                 {a.checkedIn && <span className="pill ok">Checked in</span>}
               </div>

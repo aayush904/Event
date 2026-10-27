@@ -129,7 +129,7 @@ export function createSeed(): DB {
   const demoUser = {
     id: 'u-demo',
     name: 'Sam Rivera',
-    email: 'demo@turnout.test',
+    email: 'demo@ravers.test',
     passwordHash: hashPassword('demo1234'),
     city: 'New York',
     interests: ['music', 'food-drink', 'tech'] as CategoryId[],

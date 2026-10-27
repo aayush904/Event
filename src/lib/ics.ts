@@ -8,9 +8,9 @@ export function downloadIcs(e: EventItem) {
   const body = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//Turnout//Events//EN',
+    'PRODID:-//Ravers//Events//EN',
     'BEGIN:VEVENT',
-    `UID:${e.id}@turnout`,
+    `UID:${e.id}@ravers`,
     `DTSTAMP:${stamp(new Date().toISOString())}`,
     `DTSTART:${stamp(e.start)}`,
     `DTEND:${stamp(e.end)}`,

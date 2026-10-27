@@ -3,8 +3,8 @@ import type { DB, EventItem, Order, Organizer, User } from './types';
 import { createSeed } from './seed';
 import { hashPassword, startOfDay, uid } from './format';
 
-const KEY = 'turnout:db:v1';
-const SEED_KEY = 'turnout:seeded-at';
+const KEY = 'ravers:db:v1';
+const SEED_KEY = 'ravers:seeded-at';
 
 function load(): DB {
   try {

@@ -124,11 +124,11 @@ function Header() {
       </div>
       <header className="header">
         <div className="wrap">
-          <Link to="/" className="logo" aria-label="Turnout home">
+          <Link to="/" className="logo" aria-label="Ravers home">
             <span className="logo-mark">
               <Mark />
             </span>
-            Turnout
+            Ravers
           </Link>
           <SearchBar className="desk" />
           <nav className="nav">
@@ -169,7 +169,7 @@ function Footer() {
       <div className="wrap">
         <div className="footer-grid">
           <div>
-            <h4>Turnout</h4>
+            <h4>Ravers</h4>
             <p style={{ maxWidth: 340, margin: 0, color: '#d8cfbd' }}>
               A ticketing platform for people who put on things. Discover what’s on, or publish your own event in a few minutes.
             </p>
@@ -214,7 +214,7 @@ function Footer() {
         </div>
         <div className="footer-big">Show up.</div>
         <div className="footer-base">
-          <span>© {new Date().getFullYear()} Turnout. Demo project — no real payments are taken.</span>
+          <span>© {new Date().getFullYear()} Ravers. Demo project — no real payments are taken.</span>
           <span>
             <Link to="/help">Help</Link> · <Link to="/help#terms">Terms</Link> · <Link to="/help#privacy">Privacy</Link>
           </span>

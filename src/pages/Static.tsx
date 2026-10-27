@@ -23,7 +23,7 @@ const FAQ: { section: string; id?: string; items: [string, string][] }[] = [
   {
     section: 'Terms',
     id: 'terms',
-    items: [['Is this a real ticketing service?', 'No. Turnout is a demo application. No payments are processed and data is stored only in your browser.']],
+    items: [['Is this a real ticketing service?', 'No. Ravers is a demo application. No payments are processed and data is stored only in your browser.']],
   },
   {
     section: 'Privacy',

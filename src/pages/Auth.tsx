@@ -64,11 +64,11 @@ export function Login() {
         <button className="btn accent block">Log in</button>
       </form>
       <div className="demo-hint mono">
-        Demo account: demo@turnout.test / demo1234{' '}
+        Demo account: demo@ravers.test / demo1234{' '}
         <button
           className="linkbtn"
           onClick={() => {
-            setEmail('demo@turnout.test');
+            setEmail('demo@ravers.test');
             setPassword('demo1234');
           }}
         >

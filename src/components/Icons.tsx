@@ -48,6 +48,6 @@ export const RefundIcon = ({ size = 18 }: P) =>
 
 export const Mark = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true">
-    <path d="M3 4h18v5h-6.5v12h-5V9H3z" fill="#ff4a1c" />
+    <path d="M5 3h8.5a5.5 5.5 0 0 1 2.2 10.55L20 21h-5.6l-3.6-6.8H10V21H5zm5 4.2v3.2h3.2a1.6 1.6 0 0 0 0-3.2z" fill="#ff4a1c" />
   </svg>
 );
